@@ -42,7 +42,10 @@ body {
   list-style: none;
 }
 
-.button, .button, .button--edit, .button--delete {
+.button, 
+.button, 
+.button--edit, 
+.button--delete {
   background: none;
   border: 0px;
   color: #888;
@@ -53,7 +56,9 @@ body {
   outline: none;
 }
 
-.button:hover, .button--edit:hover, .button--delete:hover {
+.button:hover, 
+.button--edit:hover, 
+.button--delete:hover {
   color: #3a3a3a;
 }
 
@@ -61,18 +66,21 @@ body {
   outline: none;
 }
 
-.value, .task {
+.value, 
+.task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.todo__list, .completed__list {
+.todo__list, 
+.completed__list {
   margin: 0px;
   padding: 0px;
 }
 
-.todo__item, .completed__item {
+.todo__item, 
+.completed__item {
   list-style: none;
 }
 
@@ -116,7 +124,8 @@ body {
 }
 
 /* Task list */
-.todo__item, .completed__item {
+.todo__item, 
+.completed__item {
   overflow: hidden;
   padding: 20px 0px;
   border-bottom: 1px solid #eee;
@@ -134,18 +143,21 @@ body {
   vertical-align: middle;
 }
 
-.todo__item > .input--checkbox, .completed__item > .input--checkbox {
+.todo__item > .input--checkbox, 
+.completed__item > .input--checkbox {
   margin: 0px 10px;
 }
 
-.todo__item > .value, .completed__item > .value, {
+.todo__item > .value, 
+.completed__item > .value, {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.todo__item > .input--text, .completed__item > .input--text {
+.todo__item > .input--text, 
+.completed__item > .input--text {
   width: 226px;
 }
 
