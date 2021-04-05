@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -31,7 +31,7 @@ body {
 .main {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 0px auto 0px;
 }
 
 .add__wrapper {
@@ -39,7 +39,7 @@ body {
 }
 
 .title {
-  list-style:none;
+  list-style: none;
 }
 
 .button, .button, .button--edit, .button--delete {
@@ -50,7 +50,7 @@ body {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 
 .button:hover, .button--edit:hover, .button--delete:hover {
@@ -58,7 +58,7 @@ body {
 }
 
 .input {
-  outline:none;
+  outline: none;
 }
 
 .value, .task {
@@ -68,12 +68,12 @@ body {
 }
 
 .todo__list, .completed__list {
-  margin:0;
+  margin: 0px;
   padding: 0px;
 }
 
 .todo__item, .completed__item {
-  list-style:none;
+  list-style: none;
 }
 
 /* Heading */
@@ -89,11 +89,11 @@ body {
 }
 
 .input--text {
-  margin: 0;
+  margin: 0px;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
-  padding: 0 9px;
+  padding: 0px 9px;
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
@@ -108,7 +108,7 @@ body {
 /* New Task */
 .add__title {
   display: block;
-  margin: 0 0 20px;
+  margin: 0px 0px 20px;
 }
 
 .add__task {
@@ -118,7 +118,7 @@ body {
 /* Task list */
 .todo__item, .completed__item {
   overflow: hidden;
-  padding: 20px 0;
+  padding: 20px 0px;
   border-bottom: 1px solid #eee;
 
   display: flex;
@@ -135,7 +135,7 @@ body {
 }
 
 .todo__item > .input--checkbox, .completed__item > .input--checkbox {
-  margin: 0 10px;
+  margin: 0px 10px;
 }
 
 .todo__item > .value, .completed__item > .value, {
@@ -169,18 +169,18 @@ body {
 /* Edit Task */
 
 .todo__list .input--text {
-  display:none;
+  display: none;
 }
 
 .completed__list .input--text {
-  display:none;
+  display: none;
 }
 
 .edit-mode .input--text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .value {
-  display:none;
+  display: none;
 }
